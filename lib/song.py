@@ -15,8 +15,8 @@ class Song:
         self.add_artist(self.artist)
         
     @classmethod
-    def increase_song_count(cls,increment =1 ):
-        cls.count += increment
+    def increase_song_count(cls,):
+        cls.count += 1
 
     @classmethod
     def add_genre(cls,genre):
